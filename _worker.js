@@ -7,11 +7,11 @@ import { connect } from 'cloudflare:sockets';
 
 // How to generate your own UUID:
 // https://www.uuidgenerator.net/
-let userID = '89b3cbba-e6ac-485a-9481-976a0415eab9';
+let userID = '833d4d43-a954-4690-bf93-efe1b0bb3c29';
 
 // https://www.nslookup.io/domains/cdn.xn--b6gac.eu.org/dns-records/
 // https://www.nslookup.io/domains/cdn-all.xn--b6gac.eu.org/dns-records/
-const proxyIPs= ['cdn.xn--b6gac.eu.org', 'cdn-all.xn--b6gac.eu.org', 'edgetunnel.anycast.eu.org'];
+const proxyIPs= ['digitalocean.com', '4chan.org', 'fbi.gov','edtunnel-dgp.pages.dev','www.whoer.net', 'cf.090227.xyz', 'www.whoer.net', 'd-555.com', 'log.bpminecraft.com', 'cf.090227.xyz', 'ip.sb', 'hugedomains.com',  'steamdb.info', 'tasteatlas.com', 'www.csgo.com', 'www.whatismyip.com', 'www.udacity.com',  'www.hugedomains.com','cdn.xn--b6gac.eu.org', 'cdn-all.xn--b6gac.eu.org', 'edgetunnel.anycast.eu.org', '132.145.81.117', '8.217.64.144', '152.70.234.188', '8.210.92.27', '8.219.109.183'];
 
 const defaultHttpPorts = ['80', '8080', '2052', '2082', '2086', '2095', '8880'];
 const defaultHttpsPorts = ['443', '8443', '2053', '2083', '2087', '2096'];
